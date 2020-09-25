@@ -73,6 +73,13 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "dfwtaichi.users.apps.UsersConfig",
+    "dfwtaichi.core.apps.CoreConfig",
+    "dfwtaichi.styles.apps.StylesConfig",
+    "dfwtaichi.series.apps.SeriesConfig",
+    "dfwtaichi.locations.apps.LocationsConfig",
+    "dfwtaichi.resources.apps.ResourcesConfig",
+    "dfwtaichi.posts.apps.PostsConfig",
+    "dfwtaichi.profiles.apps.ProfilesConfig"
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
